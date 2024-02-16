@@ -1,0 +1,9 @@
+title: get
+steps:
+- title: get
+  protocol: http
+  request:
+    method: GET
+    url: 'https://example.com'
+  expect:
+    code: OK
